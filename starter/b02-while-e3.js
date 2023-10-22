@@ -14,8 +14,11 @@ let nombre=0;
 
 // 2. Utilisez une boucle 'while' pour répéter les instructions suivantes tant que 'nombre' est inférieur ou égal à 20 :
 while (nombre<=20){
-    console.log(nombre);
-    nombre+2;
+    if(nombre%2===0){
+        console.log(nombre);
+    }
+
+    nombre++;
 }
 
 //    - Affichez 'nombre' dans la console si 'nombre' est un nombre pair.
