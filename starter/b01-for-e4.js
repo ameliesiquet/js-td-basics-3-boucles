@@ -25,3 +25,21 @@
     - que se passe-t-il si vous avez déclaré i avec let ?
     - que se passe-t-il si vous déclarez i avec var ?
 */
+ // 1:
+
+const demande = Number(prompt("Je voudrais afficher les 10 premières valeurs de la table de multiplication par"));
+
+//2:
+let resultat="";
+console.log("Voici les 1O premiers valeurs de la table de multiplication par "+ demande +":");
+
+for (let i=1; i<=10; i++){
+    resultat = i*demande;
+    console.log(i + "*" + demande +"=" + resultat);
+}
+
+// 3. Tentez d'afficher la valeur de i après être sorti de la boucle…
+//     - que se passe-t-il si vous avez déclaré i avec let ?
+    //=> erreur car i pas déclaré
+//     - que se passe-t-il si vous déclarez i avec var ?
+    //=> i marche encore après être sorti de la boucle alors:i=11
