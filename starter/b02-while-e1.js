@@ -23,5 +23,6 @@ while (nombre<=5){
     console.log(nombre);
     nombre++
 }
+
 console.log("Fin du programme")
 

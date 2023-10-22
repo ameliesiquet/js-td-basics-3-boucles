@@ -23,6 +23,7 @@ EXEMPLE 2 :
   - C'est le tour numéro 10
   - Le manège s'arrête
 */
+
 console.log("Le manège démarre")
 let nombre=1
 while (nombre<=10){

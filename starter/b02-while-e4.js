@@ -32,3 +32,4 @@ while(i<=10){
     console.log( demande + "*" + i + "=" + resultat)
     i++
 }
+
